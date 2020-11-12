@@ -1,0 +1,4 @@
+In this assignment I used sklearn to do some machine learning of data leveraging two seperate Models.The models I choose was LogisticRegression and SVM. I used MinMaxscaler as part of the preprocessing of the data. I used GridSearch to then Tune the Model to attempt to increase my prediction result precentage to be as high as possible.
+
+The results based on use these two model on the exoplanet data set is that the LogisticRegression model gave us a orginal percentage of 85% then when using GridSearch was able to increase that to 87.
+The SVC gave me a orginal percentage of 82% and did not really increase when using the GridSearch. It also gave me alot of false positives. So in short I would recommend to use the LogisticRegression model for running machine learning on this dataset.
